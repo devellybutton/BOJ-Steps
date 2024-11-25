@@ -50,3 +50,9 @@ for (let i = 0; i < N; i++) {
   }
   console.log(row.join(' '));
 }
+
+/**
+입력 처리: O(N * M)
+배열 나누기: O(N * M)
+행렬 덧셈: O(N * M)
+ */
