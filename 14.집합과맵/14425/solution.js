@@ -1,3 +1,5 @@
+// 14425번. 문자열 집합
+
 const fs = require('fs');
 const os = require('os');
 

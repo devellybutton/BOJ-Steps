@@ -1,3 +1,5 @@
+// 7785번. 회사에 있는 사람
+
 const fs = require('fs');
 const os = require('os');
 
