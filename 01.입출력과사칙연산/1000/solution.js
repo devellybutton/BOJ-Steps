@@ -1,12 +1,15 @@
 const fs = require('fs');
+const os = require('os');
 
-const inputPath = './input.txt';
+const isLinux = os.platform() === 'linux';
 
-// 입력 파일에서 데이터 읽기
-const input = fs.readFileSync(inputPath).toString().trim().split(' ');
+const inputPath = isLinux ? '/dev/stdin' : './input.txt'; 
+
+const input = fs.readFileSync(inputPath).toString().replace(/\r/g, '').trim().split(' ');
 
 // 입력 처리
 const N = parseInt(input[0]);
 const M = parseInt(input[1]);
 
-console.log(N + M)
+// 연산 결과 출력
+console.log(N + M);
