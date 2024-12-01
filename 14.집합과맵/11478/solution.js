@@ -23,3 +23,12 @@ for (let i = 0; i < S.length; i++) {
 }
 
 console.log(substrHash.size);
+
+/**
+ * 시간 복잡도
+ * 
+ * - 외부 루프 : n번 반복
+ * - 내부 루프 : (n - i)번 반복
+ * - 내부 루프에서 substring : 부분 문자열의 길이 O(j - i + 1), 최대 O(n) (지정된 인덱스를 순차적으로 탐색)
+ * - 전체 : O(n^3)
+ */
