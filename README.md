@@ -5,7 +5,7 @@
 - 문제 풀이 바로가기
   - [백준](https://www.acmicpc.net/)
   - [솔브드](https://solved.ac/)
-  - [백준 단계별 풀이](www.acmicpc.net/step)
+  - [백준 단계별 풀이](https://www.acmicpc.net/step)
   - [백준 링크드리스트](https://www.acmicpc.net/workbook/view/1066)
 - [코딩테스트 내용 정리한 저장소 바로가기](https://github.com/devellybutton/CodingTest-Javascript)
 
