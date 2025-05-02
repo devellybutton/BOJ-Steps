@@ -1,9 +1,8 @@
-// 2908번. 상수
-
 const fs = require("fs");
 const os = require("os");
 
 const isLinux = os.platform() === "linux";
+
 const inputPath = isLinux ? "/dev/stdin" : "./input.txt";
 
 const input = fs
@@ -11,13 +10,16 @@ const input = fs
   .toString()
   .replace(/\r/g, "")
   .trim()
-  .split("\n");
+  .split("");
+  
+let result = 1;
+const N = Math.floor(input.length / 2);
 
-const [A, B] = input[0].split(" ");
-
-const reversedA = A.split('').reverse().join('');
-const reversedB = B.split('').reverse().join('');
-
-const result = Math.max(parseInt(reversedA), parseInt(reversedB));
+for (let i = 0; i < N; i++) {
+  if (input[i] !== input[input.length - i - 1]) {
+    result = 0;
+    break;
+  }
+}
 
 console.log(result);
