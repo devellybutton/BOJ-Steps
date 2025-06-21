@@ -1,0 +1,2 @@
+- `solution.js` -> 시간초과 O(n^2)
+- `solution2.js` -> 통과 O(n log n)
