@@ -1,7 +1,7 @@
 # 백준 알고리즘 문제
 
 - 본 레포는 백준 단계별 풀이 외 문제 모음 풀이가 있습니다.
-- 언어: `javascript`, `python`
+- 언어: `javascript`
 - 문제 풀이 바로가기
   - [백준](https://www.acmicpc.net/)
   - [솔브드](https://solved.ac/)
